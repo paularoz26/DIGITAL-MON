@@ -1,0 +1,246 @@
+body{
+    background-color:#110f0fea;}
+
+header{
+    z-index: 100;}
+
+.description{
+   height:25px;
+   overflow: hidden;
+   transition: height .3s ease-in .3s;
+}
+
+.description:hover{
+   height:80px;
+}
+.carrito{
+   min-height:70vh;
+   max-width:1000px;
+   margin:0 auto;
+   width:100%;
+}
+
+.table_peluche{
+   display:flex;
+}
+
+.table_peluche>img{
+   width:9rem;
+   object-fit:contain;
+   border-radius:6px;
+   margin-right:20px;
+}
+
+.table_cantidad>input{
+   width:40px;
+   border:none;
+   outline:0;
+   font-size:16px;
+   font-weight: 700;
+
+}
+
+
+    .carrito{
+        min-height:70vh;
+        max-width:1000px;
+        margin:0 auto;
+        width:100%;}
+
+        .table_productos{
+           display:flex; 
+        }
+
+       .table_productos>img{
+        width:9rem;
+        object-fit:contain;
+        border-radius:6px;
+        margin-right: 20px;
+       }
+
+       .table_cantidad>input{
+        width:40px;
+        border:none;
+        outline:0;
+        font-size: 16px;
+        font-weight:700;
+        margin-right: 30px;
+        margin-bottom:20px;
+       }
+
+     .alert{
+        z-index:100 ;
+     }
+
+     .hide{
+        display:none;
+     }
+     .remove{
+        display:none;
+
+     }
+     .titulo{
+        align-items: center;
+        text-align: center;
+        color:blue;
+     }
+     .logo{
+        border-radius: 20px;
+        border-bottom:10px;
+        gap:20px;
+        flex-direction: row-reverse;
+     }
+
+     .parrafo{
+
+      box-shadow: 4px 4px 4px blue;
+        color:white;
+        text-transform: uppercase;
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        justify-content: center;
+        font-style:italic;
+        text-align: center;
+     
+padding-left:20px;
+padding-right:20px;
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+ 
+     .container-logos{
+        display:flex;
+        justify-content:space-between ;
+        margin:20px;
+        gap:20px;
+        box-shadow:4px 4px 4px white;
+     }
+     .img{
+        width:100%;
+     }
+     .card{
+        box-shadow: 4px 4px 4px white;
+     }
+     .emblemas{
+        text-decoration:underline;
+     }
+
+
+    .digimon{
+      text-shadow: 3px 3px 3px blue;
+        color:white;
+        text-transform: uppercase;
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        justify-content: center;
+        font-style:italic;
+        text-align: center;
+     
+
+    }
+
+.digimon{
+   font-family: Arial, Helvetica, sans-serif;
+   color:blue;
+   text-shadow: 1px 1px 1px white;
+   text-transform: uppercase;
+   justify-content:end;
+   font-weight: 300;
+}
+.digimon1{
+   display: flex;
+   overflow: hidden;
+   list-style:none;
+   flex-wrap: nowrap;
+   justify-content:center;
+   justify-content:space-around;
+   margin:10px;
+   align-items: center;
+   gap:20px;
+   border-radius: 10px;
+   border-style: double;
+   box-shadow: 2px 2px 2px white;
+   flex-direction: row;
+
+
+
+}
+
+.valor{
+   text-shadow:2px 2px 2px orangered;
+   color:white;
+   text-transform: capitalize;
+   font-weight:400;
+   font-style: italic;
+}
+
+.valorTai{
+   color:white;
+   font-weight:400;
+}
+
+.amistad{
+   text-shadow:2px 2px 2px blue;
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;
+
+}
+
+.esperanza{
+   text-shadow:1px 1px 1px yellow;
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;
+}
+.pureza{
+   text-shadow:2px 2px 2px green;
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;  
+}
+
+.amor{
+   text-shadow:2px 2px 2px red;
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;  
+}
+
+.luz{
+   text-shadow:2px 2px 2px palevioletred;
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;   
+}
+
+.conocimiento{
+   text-shadow:2px 2px 2px rgb(93, 11, 93);
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;   
+}
+
+.sinceridad{
+   text-shadow:2px 2px 2px grey;
+   color:white;
+   text-transform:capitalize;
+   font-weight:400;
+   font-style: italic;     
+}
+
+.video{
+   justify-content: center;
+   border-radius:20px;
+   box-shadow: 3px 3px 3px white;
+   align-items: center;
+   
+}
